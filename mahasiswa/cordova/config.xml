@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="usm.kuliahku.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Kuliahku</name>
+    <description>
+        Sistem Monitoring Akademik Universitas Semarang
+    </description>
+    <author email="wiznugandi@gmail.com" href="https://mimzy.xyz">
+       W
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/android/ldpi.png" />
+        <icon density="mdpi" src="res/android/mdpi.png" />
+        <icon density="hdpi" src="res/android/hdpi.png" />
+        <icon density="xhdpi" src="res/android/xhdpi.png" />
+        <icon density="xxhdpi" src="res/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/android/xxxhdpi.png" />
+        <splash density="land-hdpi" src="res/android/splash-land-hdpi.png" />
+        <splash density="land-ldpi" src="res/android/splash-land-ldpi.png" />
+        <splash density="land-mdpi" src="res/android/splash-land-mdpi.png" />
+        <splash density="land-xhdpi" src="res/android/splash-land-xhdpi.png" />
+        <splash density="port-hdpi" src="res/android/splash-port-hdpi.png" />
+        <splash density="port-ldpi" src="res/android/splash-port-ldpi.png" />
+        <splash density="port-mdpi" src="res/android/splash-port-mdpi.png" />
+        <splash density="port-xhdpi" src="res/android/splash-port-xhdpi.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#f7f7f8" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashShowOnlyFirstTime" value="true" />
+    <engine name="android" spec="^6.2.3" />
+    <plugin name="cordova-plugin-crosswalk-webview" spec="^2.4.0" />
+    <plugin name="cordova-plugin-splashscreen" spec="~4.1.0" />
+    <plugin name="cordova-plugin-statusbar" spec="~2.4.2" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+</widget>
